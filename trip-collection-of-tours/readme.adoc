@@ -1,0 +1,33 @@
+
+== trip - collection of tours
+
+I want to collect multiple tours in a trip.
+Create a rest-Endpoint to only get trip-tour-infos without large images
+
+
+https://docs.magnolia-cms.com/headless/getting-started-with-magnolia-headless/hello-headless.html[Base-Example]
+
+[source,bash]
+----
+cp -r ../from_git/basic-headless-demos/magnolia magnolia
+cd magnolia
+mgnl jumpstart
+# 2
+
+# Now, pick up some handy configuration and sample images.
+cp -r ../../from_git/basic-headless-demos/magnolia/_dev/content-to-bootstrap/* ./apache-tomcat/webapps/magnoliaAuthor/WEB-INF/bootstrap/common
+
+mgnl start
+
+browser http://localhost:8080
+# Click Run the Web update on the author instance.
+# login superuser/superuser
+----
+
+* Add Trip
+
+=== Doku
+
+* https://docs.magnolia-cms.com/product-docs/6.2/Features/Content-Types.html#_content_type_property_suffixes[type definitions]
+* https://docs.magnolia-cms.com/product-docs/6.2/Developing/Templating/Dialog-definition/Field-definition/List-of-fields.html[dialog input fields]
+
