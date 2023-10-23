@@ -10,3 +10,24 @@ subApps:
       properties:
         isFeatured:
           buttonLabel: Featured
+        tourAgency:
+          label: Tour Agency
+          $type: comboBoxField
+          datasource:
+            $type: jcrDatasource
+            workspace: category
+            describeByProperty: displayName
+            rootPath: /travel-agency
+            allowedNodeTypes:
+              - mgnl:category
+        tourGuide:
+          label: Tour Guide
+          $type: comboBoxField
+          datasource:
+            $type: jcrDatasource
+            workspace: category
+            describeByProperty: displayName
+            rootPath: /travel-agency
+            allowedNodeTypes:
+              - mgnl:category
+

@@ -1,0 +1,157 @@
+'travel-agency':
+  'jcr:primaryType': 'mgnl:folder'
+  'jcr:uuid': '15c6fee8-38e2-45e1-bf2b-995d38a11e83'
+  'mgnl:created': 2023-10-23T17:29:18.587+02:00
+  'mgnl:createdBy': 'superuser'
+  'mgnl:lastModified': 2023-10-23T17:30:33.592+02:00
+  'mgnl:lastModifiedBy': 'superuser'
+  'alltours':
+    'displayName': 'Alltours'
+    'jcr:primaryType': 'mgnl:category'
+    'jcr:uuid': '04dfcf4c-fc56-466c-83d0-86265d261ab5'
+    'level': 'level-1'
+    'mgnl:created': 2023-10-23T17:30:03.027+02:00
+    'mgnl:createdBy': 'superuser'
+    'mgnl:lastModified': 2023-10-23T17:31:56.223+02:00
+    'mgnl:lastModifiedBy': 'superuser'
+    'relatedUUID':
+      'jcr:uuid': 'ef56a7f1-5e62-405c-9ba3-a94eba74fefb'
+      'mgnl:created': 2023-10-23T17:30:03.029+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2023-10-23T17:30:59.454+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'relatedUUID0':
+        'jcr:uuid': 'd5e3fa85-9c5d-4876-acd5-2afc90edaf68'
+        'mgnl:created': 2023-10-23T17:30:03.029+02:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastModified': 2023-10-23T17:30:59.454+02:00
+        'mgnl:lastModifiedBy': 'superuser'
+    'Dwight-Atkins':
+      'displayName': 'Dwight Atkins'
+      'jcr:primaryType': 'mgnl:category'
+      'jcr:uuid': '003669a0-d950-4fd3-b233-369b55cc5c47'
+      'level': 'level-1'
+      'mgnl:created': 2023-10-23T17:31:37.250+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2023-10-23T19:36:09.271+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+    'Domingo-Herman':
+      'displayName': 'Domingo Herman'
+      'jcr:primaryType': 'mgnl:category'
+      'jcr:uuid': 'dc9d998a-93f5-4d98-9eca-35abf2f3da8d'
+      'level': 'level-1'
+      'mgnl:created': 2023-10-23T17:31:49.610+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2023-10-23T19:36:01.664+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'relatedUUID':
+        'jcr:uuid': '4bd5a817-475a-4444-a110-50d788795057'
+        'mgnl:created': 2023-10-23T17:31:49.612+02:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastModified': 2023-10-23T19:36:01.664+02:00
+        'mgnl:lastModifiedBy': 'superuser'
+        'relatedUUID0':
+          'jcr:uuid': 'd2243d3e-217e-4cdf-a8f4-548fc1dcc602'
+          'mgnl:created': 2023-10-23T17:31:49.612+02:00
+          'mgnl:createdBy': 'superuser'
+          'mgnl:lastModified': 2023-10-23T19:36:01.664+02:00
+          'mgnl:lastModifiedBy': 'superuser'
+    'Melba-Fisher':
+      'displayName': 'Melba Fisher'
+      'jcr:primaryType': 'mgnl:category'
+      'jcr:uuid': 'aa04296f-063f-4114-b50d-48ac10b1b21d'
+      'level': 'level-1'
+      'mgnl:created': 2023-10-23T17:32:01.556+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2023-10-23T19:36:20.952+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+  'trendtours':
+    'displayName': 'Trendtours'
+    'jcr:primaryType': 'mgnl:category'
+    'jcr:uuid': '0b7dad1a-4e87-42a3-8950-ab34dc666f99'
+    'level': 'level-1'
+    'mgnl:created': 2023-10-23T17:30:19.843+02:00
+    'mgnl:createdBy': 'superuser'
+    'mgnl:lastModified': 2023-10-23T17:32:39.186+02:00
+    'mgnl:lastModifiedBy': 'superuser'
+    'Maritza-Stokes':
+      'displayName': 'Maritza Stokes'
+      'jcr:primaryType': 'mgnl:category'
+      'jcr:uuid': 'b77cafd8-32c0-45c7-919d-ffe4291fb588'
+      'level': 'level-1'
+      'mgnl:created': 2023-10-23T17:32:14.619+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2023-10-23T19:36:31.544+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+    'Joan-Cook':
+      'displayName': 'Joan Cook'
+      'jcr:primaryType': 'mgnl:category'
+      'jcr:uuid': '0f35a404-8ee4-4883-bbe4-99966e3a2c0f'
+      'level': 'level-1'
+      'mgnl:created': 2023-10-23T17:32:22.076+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2023-10-23T19:36:40.000+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+    'Harvey-Barrett':
+      'displayName': 'Harvey Barrett'
+      'jcr:primaryType': 'mgnl:category'
+      'jcr:uuid': '744c43d8-386f-4d89-b27e-661a6a787c99'
+      'level': 'level-1'
+      'mgnl:created': 2023-10-23T17:32:30.309+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2023-10-23T19:36:47.082+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+    'Alden-Mcconnell':
+      'displayName': 'Alden Mcconnell'
+      'jcr:primaryType': 'mgnl:category'
+      'jcr:uuid': '1352933e-13fe-46e2-ac04-98a30c0a7f62'
+      'level': 'level-1'
+      'mgnl:created': 2023-10-23T17:32:36.933+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2023-10-23T19:36:54.217+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+    'Therese-Little':
+      'displayName': 'Therese Little'
+      'jcr:primaryType': 'mgnl:category'
+      'jcr:uuid': 'e60ae369-ac56-494f-aa0c-fa7c32227ec7'
+      'level': 'level-1'
+      'mgnl:created': 2023-10-23T17:32:43.446+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2023-10-23T19:37:02.210+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+  'tui':
+    'displayName': 'TUI'
+    'jcr:primaryType': 'mgnl:category'
+    'jcr:uuid': '885bc2bd-04b8-4912-9648-0282c4573e06'
+    'level': 'level-1'
+    'mgnl:created': 2023-10-23T17:30:38.989+02:00
+    'mgnl:createdBy': 'superuser'
+    'mgnl:lastModified': 2023-10-23T17:33:11.714+02:00
+    'mgnl:lastModifiedBy': 'superuser'
+    'Regina-Shepherd':
+      'displayName': 'Regina Shepherd'
+      'jcr:primaryType': 'mgnl:category'
+      'jcr:uuid': 'a1cc38d6-1b36-44ee-a7fe-b9f2f6861ae4'
+      'level': 'level-1'
+      'mgnl:created': 2023-10-23T17:33:04.103+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2023-10-23T19:37:12.547+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+    'Beth-Moore':
+      'displayName': 'Beth Moore'
+      'jcr:primaryType': 'mgnl:category'
+      'jcr:uuid': 'c6a738f5-173f-4188-8678-a5d3fb773e82'
+      'level': 'level-1'
+      'mgnl:created': 2023-10-23T17:33:10.039+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2023-10-23T19:37:21.089+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+    'Alexis-Mata':
+      'displayName': 'Alexis Mata'
+      'jcr:primaryType': 'mgnl:category'
+      'jcr:uuid': 'b5237d64-b17f-47ed-8c3b-933325755988'
+      'level': 'level-1'
+      'mgnl:created': 2023-10-23T17:33:15.600+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2023-10-23T19:37:28.752+02:00
+      'mgnl:lastModifiedBy': 'superuser'

@@ -26,6 +26,14 @@ model:
       type: reference:category
       multiple: true
 
+    tourAgency:
+      label: Tour Agency
+      type: String
+
+    tourGuide:
+      label: Tour Guide
+      type: String
+
     location:
       label: Start City
       i18n: true

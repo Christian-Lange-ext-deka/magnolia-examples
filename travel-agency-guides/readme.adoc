@@ -24,7 +24,22 @@ browser http://localhost:8080
 # login superuser/superuser
 ----
 
-Add tour-agency as category
+* Add tour-agency as category
 
+image::images/example_category_agency_guide.png[]
 
+* add guides per agency
+
+* Wanted: select agency and select guide form that agency
+
+* But I have a mixture of agencies and guides
+
+image::images/example_tour_agency_select.png[]
+
+image::images/example_tour_agency_tour_guide_select.png[]
+
+=== Doku
+
+* https://docs.magnolia-cms.com/product-docs/6.2/Features/Content-Types.html#_content_type_property_suffixes[type definitions]
+* https://docs.magnolia-cms.com/product-docs/6.2/Developing/Templating/Dialog-definition/Field-definition/List-of-fields.html[dialog input fields]
 
