@@ -1,0 +1,20 @@
+datasource:
+  workspace: trips
+  autoCreate: true
+
+model:
+  properties:
+
+    name:
+      label: Name
+      required: true
+      i18n: true
+
+    description:
+      label: Description
+      i18n: true
+
+    tours:
+      label: List of tours
+      type: reference:tour
+      multiple: true

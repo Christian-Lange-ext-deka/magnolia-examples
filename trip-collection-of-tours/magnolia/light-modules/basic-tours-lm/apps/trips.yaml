@@ -1,0 +1,21 @@
+!content-type:trips
+name: trips
+label: Trips
+
+# Optionally override any of the app configuration supplied by the content type.
+subApps:
+  detail:
+    label: Trip Detail
+    form:
+      properties:
+        tours:
+          label: List of tours
+          $type: jcrMultiLinkField
+          multiple: true
+          field:
+            label: ""
+            $type: linkField
+            datasource:
+              $type: jcrDatasource
+              workspace: tours
+              describeByProperty: name

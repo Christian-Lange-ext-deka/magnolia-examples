@@ -1,0 +1,15 @@
+class: info.magnolia.rest.delivery.jcr.v2.JcrDeliveryEndpointDefinition
+workspace: trips
+depth: 10
+bypassWorkspaceAcls: true
+includeSystemProperties: true
+nodeTypes:
+  - mgnl:content
+
+references:
+  - name: tourReferences
+    propertyName: tours
+    referenceResolver:
+      $type: jcrReferenceResolver
+      targetWorkspace: tours
+

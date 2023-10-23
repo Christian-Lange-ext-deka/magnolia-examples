@@ -24,10 +24,12 @@ browser http://localhost:8080
 # login superuser/superuser
 ----
 
-* Add Trip
+* Add Trip with multiple tours
+* define rest endpoint that is only providing metadata no binary images
+* seems to just work... -> try link:trips.http[] and look for images (only JCRs are provided)
 
 === Doku
 
 * https://docs.magnolia-cms.com/product-docs/6.2/Features/Content-Types.html#_content_type_property_suffixes[type definitions]
 * https://docs.magnolia-cms.com/product-docs/6.2/Developing/Templating/Dialog-definition/Field-definition/List-of-fields.html[dialog input fields]
-
+* https://www.jetbrains.com/help/idea/2023.2/http-client-in-product-code-editor.html?utm_version=2023.2[Intellij HTTP Client Plugin]

@@ -21,6 +21,11 @@ model:
       type: asset
       label: Image
 
+    images:
+      type: asset
+      label: Image
+      multiple: true
+
     tourTypes:
       label: Tour Types
       type: reference:category

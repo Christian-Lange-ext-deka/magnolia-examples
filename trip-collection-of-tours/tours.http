@@ -1,0 +1,9 @@
+
+### all tours
+GET http://localhost:8080/magnoliaAuthor/.rest/delivery/tours
+Authorization: Basic superuser superuser
+
+
+### single tour
+GET http://localhost:8080/magnoliaAuthor/.rest/delivery/tours/magnolia-travels/Kyoto
+Authorization: Basic superuser superuser

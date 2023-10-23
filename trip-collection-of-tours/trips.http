@@ -1,0 +1,10 @@
+
+
+### all trips
+GET http://localhost:8080/magnoliaAuthor/.rest/delivery/trips
+Authorization: Basic superuser superuser
+
+
+### specific trips
+GET http://localhost:8080/magnoliaAuthor/.rest/delivery/trips/Asia-Tour
+Authorization: Basic superuser superuser
