@@ -1,0 +1,8 @@
+
+
+== magnolia-examples
+
+Examples to explore magnolia
+
+
+use magnolia content from git -> from_git
